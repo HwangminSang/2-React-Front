@@ -1,0 +1,65 @@
+import React, { useState } from "react";
+import SearchIcon from "@material-ui/icons/Search";
+import { TextField, Button, makeStyles, Typography } from "@material-ui/core";
+import useToday from "../../../../../util/useToday";
+
+import moment from "moment";
+
+
+const JournalFormMenu = ({searchDataJournalDoubleStart}) => {
+
+  const [toDay,monthFirstDay]=useToday();
+  const classes = useStyles();
+  const [startDate, setStartDate] = useState(monthFirstDay);
+  const [endDate, setEndDate] = useState(toDay);
+
+  const searchData = () => {
+    searchDataJournalDoubleStart({startDate: moment(startDate).format("yyyy-MM-DD"),
+                                  endDate: moment(endDate).format("yyyy-MM-DD")});
+    
+  };
+
+  return (
+    <>
+      <div align="center">
+        <fieldset>
+          <Typography variant="h5">[ 검색조건 ]</Typography>
+          <div className={classes.margin}>
+            <TextField 
+              name="startDate"
+              type={"date"}
+              defaultValue={startDate}
+              onChange={e => setStartDate(e.target.value)}
+            />
+
+            <TextField
+              name="endDate"
+              type={"date"}
+              defaultValue={endDate}
+              onChange={e => setEndDate(e.target.value)}
+            />
+
+            <Button
+              variant={"contained"}
+              color={"primary"}
+              onClick={searchData}
+              startIcon={<SearchIcon />}
+            >
+              조회
+            </Button>
+          </div>
+        </fieldset>
+      </div>
+    </>
+  );
+};
+
+const useStyles = makeStyles(theme => ({
+  margin: {
+    "& > *": {
+      margin: theme.spacing(2),
+    },
+  },
+}));
+
+export default JournalFormMenu;

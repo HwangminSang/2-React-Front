@@ -1,0 +1,56 @@
+import React, { useEffect, useState } from 'react';
+import { Button } from '@material-ui/core';
+import MyGrid from 'util/LogiUtil/MyGrid';
+import axios from "axios";
+import Swal from "sweetalert2";
+
+function TransportIn(props) {
+    
+    const [Searchvehicle, setSearchvehicleList] = useState([]);
+
+    const column = {
+        columnDefs: [
+            { headerName: '차량', field: 'commercialVehicle' },
+            { headerName: '기사님', field: 'driver' }, 
+            { headerName: '출차 상태', field: 'transportStatus' },
+        ]
+    };
+
+    const setSearchvehicle = (setSearchvehicleList) => {
+  
+        axios.get("http://localhost:8282/logi/transport/getCommercialVehicleList").then(({data}) => {
+            if(data.errorCode < 0){
+                return Swal.fire({
+                    icon: "error",
+                    title: data.errorMsg
+                  });
+            }
+            setSearchvehicleList(data.gridRowJson);
+        }).catch(e => {
+            Swal.fire({
+                icon: "error",
+                title: e
+              });
+        });
+    }
+
+    useEffect(() => {
+        setSearchvehicle(setSearchvehicleList);
+    }, []);
+
+    return (
+        <>
+            <MyGrid
+                column={column}
+                title={'입차 관리'}
+                list={Searchvehicle}
+                onCellClicked={undefined}
+                rowSelection="single"
+                api={undefined}
+            >
+            </MyGrid>
+        </>
+    );
+}
+
+export default TransportIn;

@@ -1,0 +1,50 @@
+/* eslint-disable no-unused-vars */
+import React, { useRef, useState } from 'react';
+import { TextField, Button, Dialog,DialogActions,DialogContent,DialogTitle  } from "@material-ui/core";
+
+export default function AttendeeDialog({open,handleClose,data,onChange,handleFormSubmit,}){
+ let {classCode,empNo,empName,startDate,endDate,totalHours,attendanceScore,testScore,totalScore,actualCharge,status,cost,}=data
+  //console.log("@@@@@@@@@@@@data",data)
+  //var classNameOld = sessionStorage.getItem("classinfo-className");
+  //var classCodeOld = sessionStorage.getItem("classinfo-classCode");
+  //data.classCode=classCodeOld
+  //data.className=classNameOld
+
+  return (
+    <div>
+      <Dialog
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+        disableEnforceFocus
+      >
+        <DialogTitle id="alert-dialog-title">{"Insert user"}</DialogTitle>
+        <DialogContent>
+        <form>
+            <TextField id="classCode" value={classCode} onChange={e=>onChange(e)} placeholder="Enter classCode" label="classCode" variant="outlined" margin="dense" fullWidth />
+            <TextField id="empNo" value={empNo} onChange={e=>onChange(e)} placeholder="Enter empNo" label="empNo" variant="outlined" margin="dense" fullWidth />
+            <TextField id="empName" value={empName} onChange={e=>onChange(e)} placeholder="Enter empName" label="empName" variant="outlined" margin="dense" fullWidth />
+            <TextField id="startDate" value={startDate} onChange={e=>onChange(e)} placeholder="Enter startDate" label="startDate" variant="outlined" margin="dense" fullWidth />
+            <TextField id="endDate" value={endDate} onChange={e=>onChange(e)} placeholder="Enter endDate" label="endDate" variant="outlined" margin="dense" fullWidth />
+            <TextField id="totalHours" value={totalHours} onChange={e=>onChange(e)} placeholder="Enter totalHours" label="totalHours" variant="outlined" margin="dense" fullWidth />
+            <TextField id="attendanceScore" value={attendanceScore} onChange={e=>onChange(e)} placeholder="Enter attendanceScore" label="attendanceScore" variant="outlined" margin="dense" fullWidth />
+            <TextField id="testScore" value={testScore} onChange={e=>onChange(e)} placeholder="Enter testScore" label="testScore" variant="outlined" margin="dense" fullWidth />
+            <TextField id="totalScore" value={totalScore} onChange={e=>onChange(e)} placeholder="Enter totalScore" label="totalScore" variant="outlined" margin="dense" fullWidth />
+            <TextField id="actualCharge" value={actualCharge} onChange={e=>onChange(e)} placeholder="Enter actualCharge" label="actualCharge" variant="outlined" margin="dense" fullWidth />
+            <TextField id="status" value={status} onChange={e=>onChange(e)} placeholder="Enter status" label="status" variant="outlined" margin="dense" fullWidth />
+            <TextField id="cost" value={cost} onChange={e=>onChange(e)} placeholder="Enter cost" label="cost" variant="outlined" margin="dense" fullWidth />
+        </form>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose} color="secondary" variant="outlined">
+            Cancel
+          </Button>
+          <Button color="primary" onClick={()=>handleFormSubmit()} variant="contained">
+            {"Submit"}
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </div>
+  );
+}

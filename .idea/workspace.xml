@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63ec94a9-79a7-4dc9-9db3-37f2dd486721" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/page/dashboard/blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/page/dashboard/blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/page/dashboard/map/CompanyMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/page/dashboard/map/CompanyMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/reducer/commonReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/reducer/commonReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/ApprovalManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/ApprovalManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/ApprovalManagerHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/ApprovalManagerHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/JournalDetailDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/JournalDetailDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/JournalGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/JournalGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/SlipGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/ApprovalManager/SlipGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/GeneralAccountLedger/GeneralAccountLedger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/GeneralAccountLedger/GeneralAccountLedger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/GeneralAccountLedger/GeneralAccountLedgerGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/GeneralAccountLedger/GeneralAccountLedgerGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/GeneralAccountLedger/GeneralAccountLedgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/GeneralAccountLedger/GeneralAccountLedgerMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/JournalForm/JournalForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/JournalForm/JournalForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/JournalForm/JournalFormGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/JournalForm/JournalFormGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/JournalForm/JournalFormMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/JournalForm/JournalFormMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/Slip/Combine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/Slip/Combine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/Slip/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/Slip/Container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/Slip/Journal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/Slip/Journal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/Slip/JournalDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/Slip/JournalDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/Slip/SlipForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/Slip/SlipForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/page/Slip/SlipFormMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/page/Slip/SlipFormMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/reducer/AccountReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/reducer/AccountReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/account/saga/AccountSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/account/saga/AccountSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/base/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/base/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/base/page/AccountForm/AccountGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/base/page/AccountForm/AccountGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/base/page/AccountForm/AccountTreeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/base/page/AccountForm/AccountTreeView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/root/RootRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/root/RootRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountLedger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountLedger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountLedgerGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountLedgerGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountLedgerMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountLedgerMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountSearchDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/page/AccountLedger/AccountSearchDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/page/PreviousFinalcialStatement/PreviousFinalcialStatementMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/page/PreviousFinalcialStatement/PreviousFinalcialStatementMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/reducer/StatementReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/reducer/StatementReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/account/statement/saga/StatementSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/account/statement/saga/StatementSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/logistic/base/action/LogisticsInfoActionType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/logistic/base/action/LogisticsInfoActionType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/logistic/base/reducer/BasicInfoReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/logistic/base/reducer/BasicInfoReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/logistic/transport/reducer/transportReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/logistic/transport/reducer/transportReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/logistic/transport/route/transportRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/logistic/transport/route/transportRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/erp/logistic/transport/saga/transportSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/erp/logistic/transport/saga/transportSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/createRequestSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/createRequestSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/useAxios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/useAxios.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27XYxLzPj6CUnbEVK4HKQCFTKoT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\alstk\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\69\REACT" />
+          <option name="myCopyRoot" value="C:\69\REACT" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\69\REACT" />
+          <option name="myCopyRoot" value="C:\69\REACT" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="63ec94a9-79a7-4dc9-9db3-37f2dd486721" name="변경" comment="" />
+      <created>1649468143894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649468143894</updated>
+      <workItem from="1649468146331" duration="2171000" />
+      <workItem from="1649474788591" duration="758000" />
+      <workItem from="1649566334794" duration="2328000" />
+      <workItem from="1649585932600" duration="1192000" />
+      <workItem from="1649588234725" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
